@@ -1,6 +1,8 @@
 package model;
 
-public abstract class GObject {
+import java.view.GObjectForm;
+
+public abstract class GObject extends view.GObjectForm<T>{
     private String label;
 
     public GObject(String label){

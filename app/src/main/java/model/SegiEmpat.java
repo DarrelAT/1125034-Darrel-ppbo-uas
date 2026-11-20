@@ -8,4 +8,15 @@ public class SegiEmpat extends Object2D{
         this.panjang = panjang;
         this.lebar = lebar;
     }
+
+    @Override 
+    protected abstract double hitungLuas(double panjang, double lebar){
+        return panjang * lebar;
+    }
+
+    @Override 
+    protected  abstract double hitungKeliling(double panjang, double lebar){
+        return 1/2 * panjang * lebar;
+    }
+\
 }
