@@ -1,19 +1,27 @@
 package controller;
 
-import view.GObjectForm;
 import model.*;
 
 public class GObjectController {
-    private GObjectForm view;
 
-    public GObjectController(GObjectForm view){
-        this.view = view;
+    GObjectForm goForm;
+
+    public GObjectController(GObjectForm goForm){
+        this.goForm = goForm;
     }
 
     public void run(){
         int run = 1;
         while(run != 0){
             int menu = view.showMainMenu();
+            switch (menu) {
+                case 1:
+                    goForm.
+                    break;
+            
+                default:
+                    break;
+            }
         }
     }
 }
