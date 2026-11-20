@@ -16,7 +16,7 @@ public abstract class GObjectForm <T extends GObject>{
     
     GObjectForm<T> KerucutGObjectForm = new GObjectForm<T>(){};
 
-    public T showInsertForm(String label){};
+    public T showInsertForm(){};
 
     protected abstract String[] getFields();
 

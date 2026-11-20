@@ -17,4 +17,5 @@ public class GObjectView {
         System.out.println("0. keluar");
         return PrintUtil.readline();
     }
+    
 }
